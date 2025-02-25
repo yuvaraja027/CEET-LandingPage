@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEET</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/CEET_Logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/995bd80079.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <input type="checkbox" id="check" />
+
+            <img src="./images/CEET_Logo.svg" alt="CEET Logo" class="CEETLogo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a id="dropdownToggle" class="dropdownToggle">Initiatives <span class="arrow"></span></a>
+                    <ul class="dropdown-menu" id="dropdownMenu">
+                        <li><a href="#">Energy Efficiency</a></li>
+                        <li><a href="#">E-Mobility</a></li>
+                        <li><a href="#">Motors & Controllers</a></li>
+                        <li><a href="#">Energy Storage</a></li>
+                        <li><a href="#">Recycling</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <label for="check" class="checkbtn">
+                <!-- <img class="menuBar" src="menu-bar.png" alt="menu-bar" /> -->
+                <i class="fa-solid fa-bars menuBar" style="color: #ffffff;"></i>
+            </label>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="subContent sub1">
+            <!-- <img src="./images/Conference_Hall.svg" alt="Conference Hall Image" class="conferenceHall"> -->
+            <div class="overlayConferenceHall">
+                <h1>Centre For Excellence in Energy and Telecommunication</h1>
+                <p>Centre for Excellence in Energy and Telecommunication (CEET) is a non-profit R&D organization backed by IIT Madras. CEET specializes in the research and development of complete lifecycle of battery subsystems including battery packs, motors and controllers, charging subsystems and storage/grid batteries.</p>
+            </div>
+        </div>
+        <div class="subContent sub2">
+            <!-- <img src="./images/Energy_Efficiency.svg" alt="Energy Efficiency Image" class="energyEfficiency"> -->
+            <div class="overlayEnergyEfficiency">
+                <div class="boxes box1">
+                    <h4>Energy Efficiency</h4>
+                    <p>Efficient management of demand and supply between available renewable and grid power sources.</p>
+                </div>
+                <div class="boxes box2">
+                    <h4>E-Mobility</h4>
+                    <p>Complete design and development of E-mobility subsystems.</p>
+                </div>
+                <div class="boxes box3">
+                    <h4>Motors & Controllers</h4>
+                    <p>Electric Vehicle (2W/3W/4W/LCV) Motors and Controller development.</p>
+                </div>
+                <div class="boxes box4">
+                    <h4>Large Scale Energy Storage System/MicroGrid </h4>
+                    <p>Cutting-edge research on renewable energy integration, smart grid technologies, and microgrid development.</p>
+                </div>
+                <div class="boxes box5">
+                    <h4>Battery and Solar Panel Recycling</h4>
+                    <p>Battery and Solar Panel Recycling facilities to ensure sustainability.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <footer class="footer">
+        <div class="footerLeft">
+            <h3>Get in Touch:</h3>
+            <p><i class="fa-solid fa-envelope"></i> info@ceet.res.in</p>
+            <p><i class="fa-solid fa-phone"></i> 044-66469815</p>
+            <p><i class="fa-solid fa-location-dot"></i> E-309, Third Floor, E-Block, IIT Madras Research Park, MGR Film City Road, Kanagam, Tharamani, Chennai – 600 113.</p>
+        </div>
+        <div class="footerCenter">
+
+        </div>
+        <div class="footerRight">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7019891559585!2d80.23784783067535!3d12.990902854647777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d7d6641728d%3A0xddfdb15c6538d927!2sIIT%20Madras%20Research%20Park!5e0!3m2!1sen!2sin!4v1740460935200!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+    </footer>
+    <div class="rightsReserved">
+        ©2025. CEET. All Rights Reserved.
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
