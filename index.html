@@ -17,22 +17,22 @@
         <nav>
             <input type="checkbox" id="check" />
 
-            <img src="./images/CEET_Logo.svg" alt="CEET Logo" class="CEETLogo">
+            <img src="./images/CEET_Logo.svg" alt="CEET Logo" class="CEETLogo" onclick="window.location.href='./index.html';">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li class="dropdown">
                     <a id="dropdownToggle" class="dropdownToggle">Initiatives <span class="arrow"></span></a>
                     <ul class="dropdown-menu" id="dropdownMenu">
-                        <li><a href="#">Energy Efficiency</a></li>
-                        <li><a href="#">E-Mobility</a></li>
-                        <li><a href="#">Motors & Controllers</a></li>
-                        <li><a href="#">Energy Storage</a></li>
-                        <li><a href="#">Recycling</a></li>
+                        <li><a href="./energyEfficiency.html">Energy Efficiency</a></li>
+                        <li><a href="./eMobility.html">E-Mobility</a></li>
+                        <li><a href="./motorsControllers.html">Motors & Controllers</a></li>
+                        <li><a href="./energyStorage.html">Energy Storage</a></li>
+                        <li><a href="./recycling.html">Recycling</a></li>
                     </ul>
                 </li>
                 <li><a href="#">People</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <label for="check" class="checkbtn">
                 <!-- <img class="menuBar" src="menu-bar.png" alt="menu-bar" /> -->
@@ -51,23 +51,23 @@
         <div class="subContent sub2">
             <!-- <img src="./images/Energy_Efficiency.svg" alt="Energy Efficiency Image" class="energyEfficiency"> -->
             <div class="overlayEnergyEfficiency">
-                <div class="boxes box1">
+                <div class="boxes box1" onclick="window.location.href='./energyEfficiency.html';">
                     <h4>Energy Efficiency</h4>
                     <p>Efficient management of demand and supply between available renewable and grid power sources.</p>
                 </div>
-                <div class="boxes box2">
+                <div class="boxes box2" onclick="window.location.href='./eMobility.html';">
                     <h4>E-Mobility</h4>
                     <p>Complete design and development of E-mobility subsystems.</p>
                 </div>
-                <div class="boxes box3">
+                <div class="boxes box3" onclick="window.location.href='./motorsControllers.html';">
                     <h4>Motors & Controllers</h4>
                     <p>Electric Vehicle (2W/3W/4W/LCV) Motors and Controller development.</p>
                 </div>
-                <div class="boxes box4">
+                <div class="boxes box4" onclick="window.location.href='./energyStorage.html';">
                     <h4>Large Scale Energy Storage System/MicroGrid </h4>
                     <p>Cutting-edge research on renewable energy integration, smart grid technologies, and microgrid development.</p>
                 </div>
-                <div class="boxes box5">
+                <div class="boxes box5" onclick="window.location.href='./recycling.html';">
                     <h4>Battery and Solar Panel Recycling</h4>
                     <p>Battery and Solar Panel Recycling facilities to ensure sustainability.</p>
                 </div>
@@ -76,7 +76,7 @@
         
         
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="footerLeft">
             <h3>Get in Touch:</h3>
             <p><i class="fa-solid fa-envelope"></i> info@ceet.res.in</p>
